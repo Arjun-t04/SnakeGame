@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Snake Game</title>
+  <link href="snake.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="input" id="input">
+      <p class="welcome">Welcome to Snake Game!</p>
+      <input type="text" id="name" class="fill-box" placeholder="Enter your name">
+      <input type="text" id="size" class="fill-box" placeholder="Enter size of grid">
+      <button class="submit-button">Submit</button>
+    </div>
+    <div class="life" id="life">
+      <div class="lifetext" >You lost a life! Play Carefully</div>
+      <button class="submit-button" id="submit">Continue</button>
+    </div>
+    <div class="gameover" id="gameover">
+      <div class="gameovertext" id="gameovertext" ></div>
+      <div class="leaderboard"></div>
+      <button class="play-again" id="playagain">Play Again</button>
+    </div>
+    <div class="bg" id="bg">
+      <div class="Top-tag">
+        <div id="Score"></div>
+        <div class="lives"><p class="lifecounter"></p></div>
+        <div class="hiscore"></div>
+        <div class="timer">Timer:50</div>
+      </div>
+      <div class="word"></div>
+      <div class="control">
+        <div id="board"></div>
+        
+        
+      </div>
+      
+        
+        <div class="arrows">
+          <div><img src="up.png" class="up"></div>
+          <div class="lr">
+            <div><img src="left.png" class="left"></div>
+            <div><img src="pause.png" class="pause"></div>
+            <div><img src="right.png" class="right"></div>
+          </div>
+          <div><img src="down.png" class="down"></div>
+        </div>  
+      
+      
+      
+      
+      
+    </div>
+    
+    <script src="snake.js"></script>
+</body>
+
+</html>
