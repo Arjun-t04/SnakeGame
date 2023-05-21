@@ -1,0 +1,92 @@
+#board {
+    width: 30vi;
+    height: 30vi;
+    border: solid;
+    border-color: black;
+    border-width: 10px;
+    background-color: rgb(130, 128, 128);
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+   
+}
+.bg {
+    display: flex;
+    flex-direction: column;
+    width:1fr;  
+    height:1fr;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.snake {
+    background-color: lightpink;
+    border-radius: 20px;
+    border:0.3vmin solid lightblue;
+}
+.sequence {
+    display:flex;
+    width:40vi;
+    height:20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 120px;
+    
+}
+.color{
+    width:8vi;
+}
+.Top-tag {
+    display: flex;
+    width: 80vi;
+    height:3vi;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 2px;
+
+}
+.control {
+    display:flex;
+}
+.up {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.down {
+    height: 55px;
+    width: 55px;
+    margin-left: 100px;
+    object-fit: cover;
+}
+.left {
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.right {
+    height: 55px;
+    width: 55px;
+    margin-left: 75px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.lr {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+.obstacle {
+    background-color: black;
+}
+    
